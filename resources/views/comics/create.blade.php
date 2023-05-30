@@ -1,8 +1,12 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="container w-50">
-        <h2>Add new Comic</h2>
+    <div class="container w-50 my-5">
+        <div class="d-flex justify-content-between align-items-center">
+            <h2>Add new Comic</h2>
+            <a class="btn btn-success my-4 text-right" href="{{ route('comics.index') }}">Back to comics list</a>
+
+        </div>
 
         <form action="{{ route('comics.store') }}" method="POST">
             @csrf

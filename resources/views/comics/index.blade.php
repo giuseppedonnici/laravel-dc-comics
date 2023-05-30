@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="container">
+    <div class="container my-5">
         <h2>Our Comics</h2>
         <div class="my-2 text-end">
             <a href="{{ route('comics.create') }}">Add new Comic</a>
