@@ -26,7 +26,7 @@
         <div class="mb-3">
             <label for="type" class="form-label">Type</label>
             <select id="type" name="type" class="form-select">
-                <option>Select</option>
+                <option></option>
                 <option @selected($comic->type === 'comic_book') value="comic_book">comic book</option>
                 <option @selected($comic->type === 'grapgic_novel') value="grapgic_novel">graphic novel</option>
             </select>
