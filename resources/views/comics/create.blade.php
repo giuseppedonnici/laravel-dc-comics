@@ -23,7 +23,7 @@
             <div class="mb-3">
                 <label for="type" class="form-label">Type</label>
                 <select id="type" name="type" class="form-select">
-                    <option selected>Seleziona</option>
+                    <option selected>Select</option>
                     <option value="comic_book">comic book</option>
                     <option value="grapgic_novel">graphic novel</option>
                 </select>
@@ -49,7 +49,7 @@
                 <textarea class="form-control" name="description" id="description" rows="3"></textarea>
             </div>
 
-            <button type="submit" class="btn btn-primary">Invia</button>
+            <button type="submit" class="btn btn-primary">Send</button>
 
         </form>
     </div>
