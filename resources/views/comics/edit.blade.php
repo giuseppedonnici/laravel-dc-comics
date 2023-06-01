@@ -9,6 +9,14 @@
 
     <h2>Update Comic: {{ $comic->title }}</h2>
 
+    @if ($errors->any())
+            <ul class="alert alert-danger">
+                @foreach ($errors->all() as $error)
+                    <li>{{ $error }}</li>
+                @endforeach
+            </ul>
+        @endif
+
     <form action="{{ route('comics.update', $comic->id) }}" method="POST">
         @method('PUT')
         @csrf

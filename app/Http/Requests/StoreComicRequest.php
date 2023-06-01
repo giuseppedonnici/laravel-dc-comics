@@ -54,9 +54,7 @@ class StoreComicRequest extends FormRequest
             'series.max' => 'La serie non deve superare i 50 caratteri',
             'sale_date' => 'La data di uscita è richiesta e non deve superare le 10 cifre',
             'sale_date.max' => 'La data di uscita non deve superare le 10 cifre',
-            'type' => 'La tipologia è richiesta e deve essere lunga almeno 2 caratteri',
-            'type.min' => 'La tipologia deve essere lunga almeno 2 caratteri',
-            'tyoe.max' => 'La tipologia non deve superare i 30 caratteri'
+            'type' => 'La tipologia è richiesta e deve essere una tra le 2 opzioni',
         ];
     }
 }
