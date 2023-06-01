@@ -46,7 +46,7 @@ class UpdateComicRequest extends FormRequest
             'title.max' => 'Il titolo non deve superare i 50 caratteri',
             'description.required' => 'La descrizione è richiesta',
             'image.required' => "L'immagine è richiesta",
-            'price.require' => 'Il prezzo è richiesto e deve essere di almeno 2 cifre',
+            'price.required' => 'Il prezzo è richiesto e deve essere di almeno 2 cifre',
             'price.min' => 'Il prezzo deve essere lungo almeno 2 cifre',
             'price.max' => 'Il prezzo non deve superare le 10 cifre',
             'series.required' => 'La serie è richiesta e deve essere lunga almeno 5 caratteri',
